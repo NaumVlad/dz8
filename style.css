@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 
 body {
@@ -8,43 +7,22 @@ body {
   text-align: center;
 }
 
-.header {
-  margin: 0.5em;
-}
-
-.link {
-  display: block;
-  width: 130px;
-  height: 30px;
-  clear: both;
-  text-decoration: none;
-  background-color: #e7a01c;
-  color: blue;
-  border-radius: 20px;
-  transition: 0.7s;
-}
-
-.link:hover {
-  width: 150px;
-  box-shadow: 10px 5px 5px black;
-  background-color: blue;
-  color: #e7a01c;
-}
-
-h1 {
+/* h1 {
   position: relative;
   top: 120px;
-}
+} */
 
-.text {
+/* .text {
   padding-top: 55px;
-}
+} */
+
+.conteiner {}
+
+.conteiner2 {}
 
 .cards {
   margin: 0.5em;
-  width: calc(33.33% - 1.3em);
-  height: calc(33vh - 1.8em);
-  display: inline-block;
+
   background-color: #e7a01c;
   border-radius: 20px;
 }
@@ -54,47 +32,20 @@ h1 {
   box-shadow: 10px 5px 5px black;
 }
 
+.cards2 {
+  background-color: #e7a01c;
+
+  border-radius: 20px;
+}
+
+.cards2:hover {
+  transition: 0.7s;
+  box-shadow: 10px 5px 5px black;
+}
+
 .picture {
   width: 140px;
   height: 80px;
-  /* ↓↓↓ Нужны ли эти значения ??? ↓↓↓*/
-  /*   display: block;
-  margin: 0 auto; */
-}
-
-/* ↓↓↓ Page2 ↓↓↓ */
-.header2 {
-  margin: 0.5em;
-  text-align: left;
-}
-
-.link2 {
-  padding: 5px 20px 5px 20px;
-  clear: both;
-  text-decoration: none;
-  background-color: #e7a01c;
-  color: blue;
-  border-radius: 20px;
-  transition: 0.7s;
-}
-
-.link2:hover {
-  padding: 5px 30px 5px 30px;
-  box-shadow: 10px 5px 5px black;
-  background-color: blue;
-  color: #e7a01c;
-}
-
-.float {
-  float: left;
-  background-color: #e7a01c;
-  margin: 0.5em;
-  width: calc(33.33% - 1em);
-  height: calc(33vh - 1.6em);
-  border-radius: 20px;
-}
-
-.float:hover {
-  transition: 0.7s;
-  box-shadow: 10px 5px 5px black;
+  display: block;
+  margin: 0 auto;
 }
